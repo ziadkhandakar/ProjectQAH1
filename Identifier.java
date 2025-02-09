@@ -13,6 +13,11 @@ public class Identifier {
         char charValue= 'B';
         String stringValue= "This is my first Java program";
         boolean booleanValue= true;
+        //Declaring Array variable
+        int[] arrayIntValue= {10,12,30,5};
+        String[] arrayStringValue= {"Hello","QA Harbor"};
+
+//Primitive Identifier print
 
         System.out.println("The byte value is " + byteValue);
         System.out.println("The short value is " + shortValue);
@@ -23,6 +28,9 @@ public class Identifier {
         System.out.println("The Char value is " + charValue);
         System.out.println("The string value is " + stringValue);
         System.out.println("The Boolean value is " + booleanValue);
+//Array print
+        System.out.println("The Int Array value is " + arrayIntValue[0]);
+        System.out.println("The String Array value is " + arrayStringValue[1]);
 
 
 
